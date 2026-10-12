@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kewei-jianying"
+version = "0.3.0"
+description = "可为AI 开源剪映字幕模板 CLI：字幕/口播稿 → 可编辑的剪映草稿（基于 pyJianYingDraft）"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "Apache-2.0 (code), CC-BY-4.0 (templates)" }
+authors = [{ name = "可为AI (KEWEI AI)" }]
+dependencies = ["pyJianYingDraft>=0.3,<0.4", "pillow>=9"]
+
+[project.urls]
+Homepage = "https://keweiai.cn/"
+Source = "https://github.com/ffzhen/kewei-jianying-templates"
+
+[project.scripts]
+kewei-jianying = "kewei_jianying.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+kewei_jianying = ["skill/SKILL.md", "skill/references/*.md", "motions.json", "templates/*/template.json", "templates/*/preview.png"]

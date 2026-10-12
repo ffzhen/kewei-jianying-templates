@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+# 生成物 / 备份
+*.bak
+*.zip
+.kewei-build-*/
+.kewei-replaced/
+/drafts/
+/tmp/
+# 系统
+.DS_Store
+Thumbs.db

@@ -1,0 +1,121 @@
+{
+  "id": "keji-jiexi",
+  "name": "科技解析",
+  "version": "0.2.0",
+  "source_preset": "tech",
+  "license": "CC-BY-4.0",
+  "author": "可为AI (KEWEI AI)",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "caption_style": {
+    "base_style": {
+      "font_type": "俪金黑",
+      "size": 8.0,
+      "color": [
+        0.0,
+        1.0,
+        1.0
+      ],
+      "bold": true,
+      "align": 0,
+      "auto_wrapping": true,
+      "max_line_width": 0.82,
+      "line_spacing": 0,
+      "scale_x": 1.39,
+      "scale_y": 1.39
+    },
+    "highlight_style": {
+      "color": [
+        0.0,
+        1.0,
+        0.5
+      ],
+      "size": 10.0,
+      "bold": true
+    },
+    "shadow_style": {
+      "alpha": 0.8,
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "diffuse": 20.0,
+      "distance": 10.0,
+      "angle": -45.0
+    },
+    "background_style": {
+      "color": "#000000",
+      "alpha": 0.8,
+      "height": 0.25,
+      "width": 0.14,
+      "horizontal_offset": 0.5,
+      "vertical_offset": 0.5,
+      "round_radius": 0.0,
+      "style": 1
+    },
+    "position": "bottom",
+    "transform_y": -0.3
+  },
+  "title_style": {
+    "base_style": {
+      "font_type": "俪金黑",
+      "size": 15.0,
+      "color": [
+        0.0,
+        1.0,
+        1.0
+      ],
+      "bold": true,
+      "align": 0,
+      "auto_wrapping": true,
+      "max_line_width": 0.7,
+      "line_spacing": 4,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    },
+    "highlight_style": {
+      "color": [
+        0.0,
+        1.0,
+        0.5
+      ],
+      "size": 15.0,
+      "bold": true
+    },
+    "shadow_style": {
+      "alpha": 0.8,
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "diffuse": 20.0,
+      "distance": 10.0,
+      "angle": -45.0
+    },
+    "background_style": {
+      "color": "#000080",
+      "alpha": 0.7,
+      "height": 0.48,
+      "width": 1.0,
+      "horizontal_offset": 0.5,
+      "vertical_offset": 0.5,
+      "round_radius": 0.0,
+      "style": 1
+    },
+    "transform_y": 0.72,
+    "line_count": 3
+  },
+  "background_music_volume": 0.3,
+  "audio_volume": 0.8,
+  "enable_transitions": true,
+  "description": "青色字幕 + 荧光绿高亮，深蓝标题底；适合 AI/数码/科技解读",
+  "tags": [
+    "科技",
+    "解读",
+    "数码"
+  ],
+  "default_motion": "typing"
+}

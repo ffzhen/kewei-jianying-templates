@@ -1,0 +1,755 @@
+{
+ "$comment": "字幕动效预设。源自可为AI Tigenix 平台 subtitle_packaging.SUBTITLE_TEMPLATES，已去除音效 ID 与关键帧类型（开源版不含音效库）。position_offset 单位为像素（1080x1920 画布）。",
+ "motions": {
+  "upper_lower": {
+   "name": "上下式",
+   "description": "片段1在上方，片段2弹入下方",
+   "animation_type": "位移+缩放",
+   "multi_segment": true,
+   "line_delay": 0.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      100
+     ],
+     "scale": 1.0,
+     "color": "#FFFFFF",
+     "highlight": false,
+     "intro_animation": "向上露出"
+    },
+    {
+     "position_offset": [
+      0,
+      -100
+     ],
+     "scale": 1.0,
+     "color": "#FFBF17",
+     "highlight": true,
+     "intro_animation": "弹入"
+    }
+   ]
+  },
+  "left_right": {
+   "name": "左右式",
+   "description": "片段1在左，片段2在右",
+   "animation_type": "位移",
+   "multi_segment": true,
+   "line_delay": 0.0,
+   "segments": [
+    {
+     "position_offset": [
+      -100,
+      0
+     ],
+     "scale": 1.0,
+     "color": "#FFFFFF",
+     "highlight": false,
+     "intro_animation": "向左滑动"
+    },
+    {
+     "position_offset": [
+      100,
+      0
+     ],
+     "scale": 1.0,
+     "color": "#FFBF17",
+     "highlight": true,
+     "intro_animation": "向右滑动"
+    }
+   ]
+  },
+  "emphasize": {
+   "name": "强调式",
+   "description": "片段1缩小，片段2放大强调",
+   "animation_type": "缩放",
+   "multi_segment": true,
+   "line_delay": 0.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      30
+     ],
+     "scale": 0.9,
+     "color": "#CCCCCC",
+     "highlight": false,
+     "intro_animation": "缩小"
+    },
+    {
+     "position_offset": [
+      0,
+      -30
+     ],
+     "scale": 1.5,
+     "color": "#FF4444",
+     "highlight": true,
+     "intro_animation": "放大"
+    }
+   ]
+  },
+  "three_lines": {
+   "name": "三行式",
+   "description": "三行显示：上行、中行强调、下行",
+   "animation_type": "缩放+位移",
+   "multi_segment": true,
+   "line_delay": 0.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      60
+     ],
+     "scale": 0.9,
+     "color": "#FFFFFF",
+     "highlight": false,
+     "intro_animation": "向下露出"
+    },
+    {
+     "position_offset": [
+      0,
+      0
+     ],
+     "scale": 1.2,
+     "color": "#FFBF17",
+     "highlight": true,
+     "intro_animation": "放大"
+    },
+    {
+     "position_offset": [
+      0,
+      -60
+     ],
+     "scale": 0.9,
+     "color": "#FFFFFF",
+     "highlight": false,
+     "intro_animation": "向上露出"
+    }
+   ]
+  },
+  "group_parallel_2": {
+   "name": "排比双行",
+   "description": "两条排比字幕：上方+下方高亮",
+   "animation_type": "位移",
+   "multi_segment": true,
+   "line_delay": 1.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      50
+     ],
+     "scale": 1.0,
+     "color": "#FFFFFF",
+     "highlight": false,
+     "intro_animation": "向上露出"
+    },
+    {
+     "position_offset": [
+      0,
+      -50
+     ],
+     "scale": 1.2,
+     "color": "#FFBF17",
+     "highlight": true,
+     "intro_animation": "向上露出"
+    }
+   ]
+  },
+  "group_parallel_3": {
+   "name": "排比三行",
+   "description": "三条排比字幕：渐进式出现，最后一条高亮",
+   "animation_type": "位移",
+   "multi_segment": true,
+   "line_delay": 1.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      60
+     ],
+     "scale": 0.95,
+     "color": "#FFFFFF",
+     "highlight": false,
+     "intro_animation": "向上露出"
+    },
+    {
+     "position_offset": [
+      0,
+      0
+     ],
+     "scale": 1.0,
+     "color": "#FFFFFF",
+     "highlight": false,
+     "intro_animation": "向上露出"
+    },
+    {
+     "position_offset": [
+      0,
+      -60
+     ],
+     "scale": 1.2,
+     "color": "#FFBF17",
+     "highlight": true,
+     "intro_animation": "放大"
+    }
+   ]
+  },
+  "group_enumerate": {
+   "name": "列举递进",
+   "description": "列举式字幕：第一/第二/第三",
+   "animation_type": "位移+缩放",
+   "multi_segment": true,
+   "line_delay": 1.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      60
+     ],
+     "scale": 0.9,
+     "color": "#E0E0E0",
+     "highlight": false,
+     "intro_animation": "向下露出"
+    },
+    {
+     "position_offset": [
+      0,
+      0
+     ],
+     "scale": 1.0,
+     "color": "#FFFFFF",
+     "highlight": false,
+     "intro_animation": "向下露出"
+    },
+    {
+     "position_offset": [
+      0,
+      -60
+     ],
+     "scale": 1.3,
+     "color": "#00FF88",
+     "highlight": true,
+     "intro_animation": "放大"
+    }
+   ]
+  },
+  "group_progressive": {
+   "name": "递进展示",
+   "description": "递进式字幕：首先/其次/最后",
+   "animation_type": "缩放",
+   "multi_segment": true,
+   "line_delay": 1.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      60
+     ],
+     "scale": 0.85,
+     "color": "#CCCCCC",
+     "highlight": false,
+     "intro_animation": "渐显"
+    },
+    {
+     "position_offset": [
+      0,
+      0
+     ],
+     "scale": 1.0,
+     "color": "#FFFFFF",
+     "highlight": false,
+     "intro_animation": "渐显"
+    },
+    {
+     "position_offset": [
+      0,
+      -60
+     ],
+     "scale": 1.4,
+     "color": "#FF6B6B",
+     "highlight": true,
+     "intro_animation": "放大"
+    }
+   ]
+  },
+  "bounce_in": {
+   "name": "弹入式",
+   "description": "片段2弹簧弹入效果",
+   "animation_type": "弹入",
+   "multi_segment": true,
+   "line_delay": 0.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      40
+     ],
+     "scale": 1.0,
+     "color": "#FFFFFF",
+     "highlight": false,
+     "intro_animation": "渐显"
+    },
+    {
+     "position_offset": [
+      0,
+      -40
+     ],
+     "scale": 1.3,
+     "color": "#00FF88",
+     "highlight": true,
+     "intro_animation": "弹簧"
+    }
+   ]
+  },
+  "flash_emphasize": {
+   "name": "闪光强调式",
+   "description": "片段2闪光强调出现",
+   "animation_type": "强调",
+   "multi_segment": true,
+   "line_delay": 0.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      40
+     ],
+     "scale": 1.0,
+     "color": "#FFFFFF",
+     "highlight": false,
+     "intro_animation": "渐显"
+    },
+    {
+     "position_offset": [
+      0,
+      -40
+     ],
+     "scale": 1.4,
+     "color": "#FFD700",
+     "highlight": true,
+     "intro_animation": "发光闪入"
+    }
+   ]
+  },
+  "pop_cute": {
+   "name": "可爱弹出式",
+   "description": "可爱的弹出效果",
+   "animation_type": "弹入",
+   "multi_segment": true,
+   "line_delay": 0.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      40
+     ],
+     "scale": 1.0,
+     "color": "#FFFFFF",
+     "highlight": false,
+     "intro_animation": "渐显"
+    },
+    {
+     "position_offset": [
+      0,
+      -40
+     ],
+     "scale": 1.2,
+     "color": "#FF69B4",
+     "highlight": true,
+     "intro_animation": "弹弓"
+    }
+   ]
+  },
+  "money_2seg": {
+   "name": "金钱2段式",
+   "description": "前缀 + 数字金额（滚动入场）",
+   "animation_type": "滚动",
+   "multi_segment": true,
+   "line_delay": 0.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      40
+     ],
+     "scale": 1.0,
+     "color": "#FFFFFF",
+     "highlight": false,
+     "intro_animation": "向上露出"
+    },
+    {
+     "position_offset": [
+      0,
+      -40
+     ],
+     "scale": 1.5,
+     "color": "#FFD700",
+     "highlight": true,
+     "intro_animation": "滚入"
+    }
+   ]
+  },
+  "money_3seg": {
+   "name": "金钱3段式",
+   "description": "前缀 + 数字金额（滚动） + 后缀",
+   "animation_type": "滚动",
+   "multi_segment": true,
+   "line_delay": 0.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      60
+     ],
+     "scale": 0.9,
+     "color": "#FFFFFF",
+     "highlight": false,
+     "intro_animation": "向下露出"
+    },
+    {
+     "position_offset": [
+      0,
+      0
+     ],
+     "scale": 1.6,
+     "color": "#FFD700",
+     "highlight": true,
+     "intro_animation": "滚入"
+    },
+    {
+     "position_offset": [
+      0,
+      -60
+     ],
+     "scale": 0.9,
+     "color": "#FFFFFF",
+     "highlight": false,
+     "intro_animation": "向上露出"
+    }
+   ]
+  },
+  "typing": {
+   "name": "打字机式",
+   "description": "逐字出现效果",
+   "animation_type": "打字",
+   "multi_segment": false,
+   "line_delay": 0.05,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      0
+     ],
+     "scale": 1.0,
+     "color": "#FFFFFF",
+     "highlight": false,
+     "intro_animation": "打字机_I"
+    }
+   ]
+  },
+  "move_up": {
+   "name": "向上露出",
+   "description": "从下方向上露出，适合引入新观点",
+   "animation_type": "位移",
+   "multi_segment": false,
+   "line_delay": 0.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      0
+     ],
+     "scale": 1.0,
+     "color": "#FFFFFF",
+     "highlight": false,
+     "intro_animation": "向上露出"
+    }
+   ]
+  },
+  "move_down": {
+   "name": "向下滑动",
+   "description": "从上方向下滑动，适合结论性内容",
+   "animation_type": "位移",
+   "multi_segment": false,
+   "line_delay": 0.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      0
+     ],
+     "scale": 1.0,
+     "color": "#FFFFFF",
+     "highlight": false,
+     "intro_animation": "向下滑动"
+    }
+   ]
+  },
+  "move_left": {
+   "name": "向左滑动",
+   "description": "从右向左滑动",
+   "animation_type": "位移",
+   "multi_segment": false,
+   "line_delay": 0.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      0
+     ],
+     "scale": 1.0,
+     "color": "#FFFFFF",
+     "highlight": false,
+     "intro_animation": "向左滑动"
+    }
+   ]
+  },
+  "move_right": {
+   "name": "向右滑动",
+   "description": "从左向右滑动",
+   "animation_type": "位移",
+   "multi_segment": false,
+   "line_delay": 0.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      0
+     ],
+     "scale": 1.0,
+     "color": "#FFFFFF",
+     "highlight": false,
+     "intro_animation": "向右滑动"
+    }
+   ]
+  },
+  "zoom_in": {
+   "name": "放大强调",
+   "description": "从小放大，突出观点",
+   "animation_type": "缩放",
+   "multi_segment": false,
+   "line_delay": 0.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      0
+     ],
+     "scale": 1.3,
+     "color": "#FFBF17",
+     "highlight": true,
+     "intro_animation": "放大"
+    }
+   ]
+  },
+  "zoom_out": {
+   "name": "缩小强调",
+   "description": "从大缩小，强调重点",
+   "animation_type": "缩放",
+   "multi_segment": false,
+   "line_delay": 0.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      0
+     ],
+     "scale": 1.0,
+     "color": "#FF4444",
+     "highlight": true,
+     "intro_animation": "缩小"
+    }
+   ]
+  },
+  "fade_in": {
+   "name": "渐显",
+   "description": "渐渐显现，适合金句",
+   "animation_type": "渐显",
+   "multi_segment": false,
+   "line_delay": 0.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      0
+     ],
+     "scale": 1.0,
+     "color": "#FFFFFF",
+     "highlight": false,
+     "intro_animation": "渐显"
+    }
+   ]
+  },
+  "wipe_right": {
+   "name": "向右擦除",
+   "description": "从左向右擦除显现",
+   "animation_type": "渐显",
+   "multi_segment": false,
+   "line_delay": 0.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      0
+     ],
+     "scale": 1.0,
+     "color": "#FFFFFF",
+     "highlight": false,
+     "intro_animation": "向右擦除"
+    }
+   ]
+  },
+  "glow": {
+   "name": "辉光",
+   "description": "发光效果，适合闪光点",
+   "animation_type": "发光",
+   "multi_segment": false,
+   "line_delay": 0.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      0
+     ],
+     "scale": 1.2,
+     "color": "#FFD700",
+     "highlight": true,
+     "intro_animation": "辉光"
+    }
+   ]
+  },
+  "sparkle": {
+   "name": "星光闪闪",
+   "description": "闪烁效果，适合惊喜内容",
+   "animation_type": "发光",
+   "multi_segment": false,
+   "line_delay": 0.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      0
+     ],
+     "scale": 1.2,
+     "color": "#FFFFFF",
+     "highlight": true,
+     "intro_animation": "星光闪闪"
+    }
+   ]
+  },
+  "blur_reveal": {
+   "name": "模糊揭示",
+   "description": "从模糊到清晰，适合揭秘",
+   "animation_type": "模糊",
+   "multi_segment": false,
+   "line_delay": 0.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      0
+     ],
+     "scale": 1.0,
+     "color": "#FFFFFF",
+     "highlight": false,
+     "intro_animation": "模糊"
+    }
+   ]
+  },
+  "fold": {
+   "name": "折叠展开",
+   "description": "折叠展开效果，适合引用",
+   "animation_type": "折叠",
+   "multi_segment": false,
+   "line_delay": 0.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      0
+     ],
+     "scale": 1.0,
+     "color": "#E0E0E0",
+     "highlight": false,
+     "intro_animation": "折叠"
+    }
+   ]
+  },
+  "unfold": {
+   "name": "开幕展开",
+   "description": "展开效果，适合重要内容",
+   "animation_type": "展开",
+   "multi_segment": false,
+   "line_delay": 0.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      0
+     ],
+     "scale": 1.3,
+     "color": "#FFBF17",
+     "highlight": true,
+     "intro_animation": "开幕"
+    }
+   ]
+  },
+  "roll_in": {
+   "name": "滚入",
+   "description": "滚动入场，适合数字展示",
+   "animation_type": "滚动",
+   "multi_segment": false,
+   "line_delay": 0.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      0
+     ],
+     "scale": 1.2,
+     "color": "#00FF88",
+     "highlight": true,
+     "intro_animation": "滚入"
+    }
+   ]
+  },
+  "ripple": {
+   "name": "波纹晕开",
+   "description": "波纹扩散效果，适合稀缺观点",
+   "animation_type": "波纹",
+   "multi_segment": false,
+   "line_delay": 0.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      0
+     ],
+     "scale": 1.0,
+     "color": "#87CEEB",
+     "highlight": false,
+     "intro_animation": "晕开"
+    }
+   ]
+  },
+  "flip": {
+   "name": "翻转",
+   "description": "翻转效果，适合反认知观点",
+   "animation_type": "翻转",
+   "multi_segment": false,
+   "line_delay": 0.0,
+   "segments": [
+    {
+     "position_offset": [
+      0,
+      0
+     ],
+     "scale": 1.0,
+     "color": "#FF6B6B",
+     "highlight": true,
+     "intro_animation": "水平翻转"
+    }
+   ]
+  }
+ }
+}

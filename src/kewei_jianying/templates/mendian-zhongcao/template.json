@@ -1,0 +1,121 @@
+{
+  "id": "mendian-zhongcao",
+  "name": "门店种草",
+  "version": "0.2.0",
+  "source_preset": "warm",
+  "license": "CC-BY-4.0",
+  "author": "可为AI (KEWEI AI)",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "caption_style": {
+    "base_style": {
+      "font_type": "文轩体",
+      "size": 9.0,
+      "color": [
+        1.0,
+        0.8,
+        0.6
+      ],
+      "bold": false,
+      "align": 0,
+      "auto_wrapping": true,
+      "max_line_width": 0.82,
+      "line_spacing": 2,
+      "scale_x": 1.2,
+      "scale_y": 1.2
+    },
+    "highlight_style": {
+      "color": [
+        1.0,
+        0.4,
+        0.4
+      ],
+      "size": 11.0,
+      "bold": true
+    },
+    "shadow_style": {
+      "alpha": 0.8,
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "diffuse": 20.0,
+      "distance": 10.0,
+      "angle": -45.0
+    },
+    "background_style": {
+      "color": "#8B4513",
+      "alpha": 0.6,
+      "height": 0.25,
+      "width": 0.14,
+      "horizontal_offset": 0.5,
+      "vertical_offset": 0.5,
+      "round_radius": 10.0,
+      "style": 1
+    },
+    "position": "bottom",
+    "transform_y": -0.25
+  },
+  "title_style": {
+    "base_style": {
+      "font_type": "文轩体",
+      "size": 16.0,
+      "color": [
+        1.0,
+        0.9,
+        0.7
+      ],
+      "bold": false,
+      "align": 1,
+      "auto_wrapping": true,
+      "max_line_width": 0.8,
+      "line_spacing": 6,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    },
+    "highlight_style": {
+      "color": [
+        1.0,
+        0.3,
+        0.3
+      ],
+      "size": 18.0,
+      "bold": true
+    },
+    "shadow_style": {
+      "alpha": 0.8,
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "diffuse": 20.0,
+      "distance": 10.0,
+      "angle": -45.0
+    },
+    "background_style": {
+      "color": "#FFE4B5",
+      "alpha": 0.5,
+      "height": 0.48,
+      "width": 1.0,
+      "horizontal_offset": 0.5,
+      "vertical_offset": 0.5,
+      "round_radius": 15.0,
+      "style": 1
+    },
+    "transform_y": 0.75,
+    "line_count": 3
+  },
+  "background_music_volume": 0.3,
+  "audio_volume": 0.8,
+  "enable_transitions": true,
+  "description": "暖白文轩体 + 珊瑚红高亮，圆角暖色底；适合门店、餐饮、生活方式种草",
+  "tags": [
+    "门店",
+    "种草",
+    "生活方式"
+  ],
+  "default_motion": "pop_cute"
+}

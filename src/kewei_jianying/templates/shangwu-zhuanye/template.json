@@ -1,0 +1,121 @@
+{
+  "id": "shangwu-zhuanye",
+  "name": "商务专业",
+  "version": "0.2.0",
+  "source_preset": "business",
+  "license": "CC-BY-4.0",
+  "author": "可为AI (KEWEI AI)",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "caption_style": {
+    "base_style": {
+      "font_type": "宋体",
+      "size": 10.0,
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bold": true,
+      "align": 0,
+      "auto_wrapping": true,
+      "max_line_width": 0.82,
+      "line_spacing": 1,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    },
+    "highlight_style": {
+      "color": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "size": 12.0,
+      "bold": true
+    },
+    "shadow_style": {
+      "alpha": 0.8,
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "diffuse": 20.0,
+      "distance": 10.0,
+      "angle": -45.0
+    },
+    "background_style": {
+      "color": "#F0F0F0",
+      "alpha": 0.9,
+      "height": 0.25,
+      "width": 0.14,
+      "horizontal_offset": 0.5,
+      "vertical_offset": 0.5,
+      "round_radius": 0.0,
+      "style": 1
+    },
+    "position": "bottom",
+    "transform_y": -0.35
+  },
+  "title_style": {
+    "base_style": {
+      "font_type": "黑体",
+      "size": 18.0,
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bold": true,
+      "align": 1,
+      "auto_wrapping": true,
+      "max_line_width": 0.8,
+      "line_spacing": 3,
+      "scale_x": 1.0,
+      "scale_y": 1.0
+    },
+    "highlight_style": {
+      "color": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "size": 20.0,
+      "bold": true
+    },
+    "shadow_style": {
+      "alpha": 0.8,
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "diffuse": 20.0,
+      "distance": 10.0,
+      "angle": -45.0
+    },
+    "background_style": {
+      "color": "#FFFFFF",
+      "alpha": 0.95,
+      "height": 0.48,
+      "width": 1.0,
+      "horizontal_offset": 0.5,
+      "vertical_offset": 0.5,
+      "round_radius": 0.0,
+      "style": 1
+    },
+    "transform_y": 0.7,
+    "line_count": 3
+  },
+  "background_music_volume": 0.3,
+  "audio_volume": 0.8,
+  "enable_transitions": true,
+  "description": "黑色宋体 + 蓝色高亮，浅灰/白底；适合律师、财税、B2B 专业内容",
+  "tags": [
+    "律师",
+    "B2B",
+    "专业"
+  ],
+  "default_motion": "fade_in"
+}

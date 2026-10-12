@@ -1,0 +1,13 @@
+kewei-jianying-templates
+Copyright 2026 可为AI (KEWEI AI)
+
+本项目依赖并参考了：
+  pyJianYingDraft — https://github.com/GuanYixuan/pyJianYingDraft
+  Copyright GuanYixuan and contributors, Licensed under the Apache License, Version 2.0
+本仓库没有复制 pyJianYingDraft 的源码，通过 pip 依赖（>=0.3,<0.4）使用。
+
+src/kewei_jianying/draft_utils.py、subtitles.py、paths.py 及 motions.json 移植自
+可为AI 自有的 Tigenix 平台代码（版权归可为AI 所有），已移除全部服务端依赖与配置。
+
+「剪映」「JianYing」「CapCut」是其权利人的商标，本项目与其没有关联。
+草稿格式为社区方式生成的非官方格式。
